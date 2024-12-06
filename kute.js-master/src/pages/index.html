@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kute Js Web </title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+            theme: {
+                extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+                }
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <script src="../../docs/src/kute.min.js"></script>
+                <!-- Your custom scripts -->
+        <div id="box" style="width: 100px; height: 100px; background: red; position: absolute; left: 0;"></div>
+        <div id="box1" style="width: 100px; height: 100px; background: red; position: absolute; left: 0;"></div>
+
+        <script>
+            // Example usage of KUTE.js
+            const tween = KUTE.to('#box', { left: '300px' }, { duration: 2000 });
+            tween.start();
+
+            KUTE.to('#box1', { left: '300px', opacity: 0.5 }, { 
+                duration: 3000, 
+                easing: 'easingCubicInOut',
+                repeat: null,
+            }).start();
+
+        </script>
+    </body>
+</html>
+<!--End the index file here -->
