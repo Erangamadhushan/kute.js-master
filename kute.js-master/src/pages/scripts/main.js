@@ -12,7 +12,7 @@ function renderNavBar() {
         </div>
     `;
     navBarContent += `
-        <div class="flex flex-row space-x-5 justify-center items-center hidden md:block">
+        <div class="flex flex-row space-x-3 justify-center items-center hidden custom:block">
             <a href="#" class="text-lg border-green-400 text-green-400 hover:border-b-4">Home</a>
             <a href="#" class="text-lg border-green-400 hover:text-green-400 hover:border-b-4">About Us</a>
             <a href="#" class="text-lg border-green-400 hover:text-green-400 hover:border-b-4">Services</a>
@@ -21,23 +21,12 @@ function renderNavBar() {
         </div>
     `;
     navBarContent += `
-        <div class="grid grid-cols-2 space-x-5 justify-end px-5 hidden lg:block">
-            <div>
-                <a href="#"><img src="./icons/navbar/add-to-cart.png" alt="add to card images"/></a>
-            </div>
-            <div>
-                <button type="button" class="p-2 px-4 border rounded-full text-green-400 border-green-400 hover:bg-green-400 hover:text-white">Sign In</button>
-            </div>
+        <div class="flex flex-row space-x-5 px-5 ">
+            <a href="#" class="hidden sm:block"><img src="./icons/navbar/add-to-cart.png" alt="add to card images"/></a>
+            <button type="button" class="p-2 px-4 border rounded-full text-green-400 border-green-400 hover:bg-green-400 hover:text-white hidden sm:block">Sign In</button>
+            <button type="button" class="p-2 px-4 border rounded-full text-green-400 border-green-400 hover:bg-green-400 hover:text-white block custom:hidden">&#9776;</button>
         </div>
     `;
-    navBarContent += `
-        <div class="grid grid-cols-2 space-x-5 justify-end px-5 block md:hidden">
-            <div>
-                <button type="button" class="p-2 px-4 border rounded-full text-green-400 border-green-400 hover:bg-green-400 hover:text-white">&#9776;</button>
-            </div>
-        </div>
-    `;
-
-
+    
     navBar.innerHTML = navBarContent;
 }
