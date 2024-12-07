@@ -1,5 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
     renderNavBar();
+    renderLandingSectionContent();
 });
 
 let navBar = document.querySelector('.pageNavBar');
@@ -29,4 +30,21 @@ function renderNavBar() {
     `;
     
     navBar.innerHTML = navBarContent;
+}
+
+
+function renderLandingSectionContent(){
+    let landSectionContainer = document.querySelector('.landingSection');
+    landSectionContainer.innerHTML = " ";
+    let landSectionContent = `
+        <div class="grid items-start p-10 gap-4">
+            <h1 class="text-6xl text-white"><span class="font-bold">Fresh and Healthy Veggies</span> Organic Market </h1>
+            <p class="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe repudiandae totam molestiae est, praesentium eveniet sequi quasi esse eum repellendus nisi quis ipsam cupiditate neque consectetur beatae qui non perspiciatis eos, voluptates quibusdam voluptatibus. Veniam tenetur facilis quos nulla</p>
+            <button type="button" class="p-3 px-5 bg-transparent border w-[300px] border-white text-white rounded-full hover:bg-white hover:text-black transition-1000">Explorer More..</button>
+        </div>
+    `;
+    
+
+    
+    landSectionContainer.innerHTML = landSectionContent;
 }
