@@ -4,6 +4,8 @@ window.addEventListener("DOMContentLoaded", () => {
     renderNavBar();
     renderLandingSectionContent();
     loadTopSellingItemContent();
+    loadSubDetails1Content();
+    loadSubDetails2Content();
 });
 
 
@@ -131,4 +133,41 @@ function loadTopSellingItemContent() {
         `
     });
     topItemsContainer.innerHTML = topItemsContent;
+}
+
+//load subDetails1Content
+let subDetails1Container = document.querySelector('.subDetails1');
+function loadSubDetails1Content() {
+    subDetails1Container.innerHTML = " ";
+    let subDetails1Content = `
+        <div class="mx-auto">
+            <img src="./images/pageImages/subImg1.jpg" alt="subContent 1 Image here"  class=""/>
+        </div>
+        <div class="p-5">
+            <h1 class="text-3xl font-bold">A Shop for good people by good people</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis amet suscipit architecto cumque dignissimos. Quasi provident, officia aspernatur eaque eveniet a quaerat itaque illo odio, hic voluptatem earum saepe, est ipsa accusamus? Iste exercitationem animi aperiam assumenda nulla pariatur nam, expedita vel vero ex commodi dignissimos iure earum dolor. Aut reprehenderit soluta sequi illum aliquam fugiat voluptatum eveniet ipsam officia.</p>
+            <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400">Explorer More..</button>
+        </div>
+    `;
+
+    subDetails1Container.innerHTML = subDetails1Content;
+}
+
+
+//load subDetails2Content
+let subDetails2Container = document.querySelector('.subDetails2');
+function loadSubDetails2Content() {
+    subDetails2Container.innerHTML = " ";
+    let subDetails2Content = `
+        <div class="p-5">
+            <h1 class="text-3xl font-bold">A Shop for good people by good people</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis amet suscipit architecto cumque dignissimos. Quasi provident, officia aspernatur eaque eveniet a quaerat itaque illo odio, hic voluptatem earum saepe, est ipsa accusamus? Iste exercitationem animi aperiam assumenda nulla pariatur nam, expedita vel vero ex commodi dignissimos iure earum dolor. Aut reprehenderit soluta sequi illum aliquam fugiat voluptatum eveniet ipsam officia.</p>
+            <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400">Explorer More..</button>
+        </div>
+        <div class="mx-auto">
+            <img src="./images/pageImages/subImg2.jpg" alt="subContent 1 Image here"  class=""/>
+        </div>
+    `;
+
+    subDetails2Container.innerHTML = subDetails2Content;
 }
