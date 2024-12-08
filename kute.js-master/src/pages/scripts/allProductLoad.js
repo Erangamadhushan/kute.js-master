@@ -32,9 +32,11 @@ function renderAllItems(items) {
         allItemProductLoadContent += `
             <div class="w-[350px] mx-auto p-4 border border-green-400 rounded-lg group overflow-hidden relative" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="200" data-aos-placement="bottom-center ">
                 <div class="">
-                    <img src="${ele.img}" class="w-full bg-cover group-hover:w-[110%]"/>
+                    <img src="${ele.img}" class="w-full bg-cover "/>
                     <h1 class="text-3xl font-bold text-center">${ele.title}</h1>
                     <h2>${ele.category}</h2>
+                    <button type="button" class=" mt-5 p-2 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" >Buy Item</button>
+                    <span class="ml-5 text-2xl font-bold">$${ele.price}</span>
                 </div>
             </div>
         `;
@@ -61,6 +63,8 @@ function renderitems(data) {
                     <img src="${ele.img}" class="w-full bg-cover"/>
                     <h1 class="text-3xl font-bold text-center">${ele.title}</h1>
                     <h2>${ele.category}</h2>
+                    <button type="button" class=" mt-5 p-2 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" >Buy Item</button>
+                    <span class="ml-5 text-2xl font-bold">$${ele.price}</span>
                 </div>
             `;
             }

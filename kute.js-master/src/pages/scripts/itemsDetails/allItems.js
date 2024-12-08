@@ -377,4 +377,71 @@ export const items = [
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
         subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
     },
+];
+
+export const topItems = [
+    {
+        title:"Spinach",
+        category:"Leafy Green",
+        img:"./images/pageImages/itemImg1.jpg",
+        price:"24.95",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
+        subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
+    },
+    {
+        title:"Broccoli",
+        category:"Crucifercus",
+        img:"./images/pageImages/itemImg3.jpg",
+        price:"24.95",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
+        subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
+    },
+    {
+        title:"Carrots",
+        category:"Root Vegetables",
+        img:"./images/pageImages/itemImg2.jpg",
+        price:"24.95",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
+        subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
+    },
+    {
+        title:"Potatoes",
+        category:"Tubers",
+        img:"./images/pageImages/itemImg1.jpg",
+        price:"24.95",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
+        subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
+    },
+    {
+        title:"Onions",
+        category:"Bulbs",
+        img:"./images/pageImages/itemImg2.jpg",
+        price:"24.95",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
+        subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
+    },
+    {
+        title:"Asparagus",
+        category:"Stem Vegetables",
+        img:"./images/pageImages/itemImg1.jpg",
+        price:"24.95",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
+        subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
+    },
+    {
+        title:"Tomatoes",
+        category:"Culinary Fruits",
+        img:"./images/pageImages/itemImg2.jpg",
+        price:"24.95",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
+        subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
+    },
+    {
+        title:"Broccoli",
+        category:"Edible Flowers",
+        img:"./images/pageImages/itemImg3.jpg",
+        price:"24.95",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
+        subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
+    },
 ]
