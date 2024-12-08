@@ -72,3 +72,43 @@ function renderItemCategoryList(data) {
 
 console.log(itemCategoryList[0]);
 renderItemCategoryList(itemCategoryList[0]);
+
+//load offers section
+let offerContainer = document.querySelector('.offers');
+function loadOffers() {
+    offerContainer.innerHTML = " ";
+    let offerContent = " ";
+    offerContent += `
+        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative">
+            <img src="./images/pageImages/itemImg1.jpg" alt="" class="w-full h-full object-cover group-hover:opacity-10"/>
+            <div class="hidden group-hover:block absolute top-0 left-0 w-full h-full flex justify-center items-center">
+                <div class="w-full h-full flex justify-center items-center flex-col duration-1000">
+                    <h1 class="text-green-400 text-center text-3xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                    <h1 class="text-green-400 text-center text-5xl">50%</h1>
+                </div>
+            </div>
+        </div>
+        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative">
+            <img src="./images/pageImages/pageImg1.jpg" alt="" class="w-full h-full object-cover group-hover:opacity-10""/>
+            <div class="hidden group-hover:block absolute top-0 left-0 w-full h-full flex justify-center items-center">
+                <div class="w-full h-full flex justify-center items-center flex-col">
+                    <h1 class="text-green-400 text-center text-3xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                    <h1 class="text-green-400 text-center text-5xl">25%</h1>
+                </div>
+            </div>
+        </div>
+        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative">
+            <img src="./images/pageImages/itemImg3.jpg" alt="" class="w-full h-full object-cover group-hover:opacity-10""/>
+            <div class="hidden group-hover:block absolute top-0 left-0 w-full h-full flex justify-center items-center">
+                <div class="w-full h-full flex justify-center items-center flex-col">
+                    <h1 class="text-green-400 text-center text-3xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                    <h1 class="text-green-400 text-center text-5xl">15%</h1>
+                </div>
+            </div>
+        </div>
+    `;
+
+
+    offerContainer.innerHTML = offerContent;
+}
+loadOffers();
