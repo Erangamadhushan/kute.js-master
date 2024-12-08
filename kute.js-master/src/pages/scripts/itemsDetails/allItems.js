@@ -3,7 +3,7 @@ export const items = [
     {
         title:"Spinach",
         category:"Leafy Green",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -11,7 +11,7 @@ export const items = [
     {
         title:"Kale",
         category:"Leafy Green",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -19,7 +19,7 @@ export const items = [
     {
         title:"Lettuce",
         category:"Leafy Green",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -27,7 +27,7 @@ export const items = [
     {
         title:"Swiss Chard",
         category:"Leafy Green",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -35,7 +35,7 @@ export const items = [
     {
         title:"Cabbage",
         category:"Leafy Green",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -44,7 +44,7 @@ export const items = [
     {
         title:"Broccoli",
         category:"Crucifercus",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -52,7 +52,7 @@ export const items = [
     {
         title:"Cauliflower",
         category:"Crucifercus",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -60,7 +60,7 @@ export const items = [
     {
         title:"Brussels Sprouds",
         category:"Crucifercus",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -68,7 +68,7 @@ export const items = [
     {
         title:"Bok Choy",
         category:"Crucifercus",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -76,7 +76,7 @@ export const items = [
     {
         title:"Turnips",
         category:"Crucifercus",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -86,7 +86,7 @@ export const items = [
     {
         title:"Carrots",
         category:"Root Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -94,7 +94,7 @@ export const items = [
     {
         title:"Beets",
         category:"Root Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -102,7 +102,7 @@ export const items = [
     {
         title:"Radishes",
         category:"Root Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -110,7 +110,7 @@ export const items = [
     {
         title:"Turnips",
         category:"Root Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -118,7 +118,7 @@ export const items = [
     {
         title:"Parsnnips",
         category:"Root Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -128,7 +128,7 @@ export const items = [
     {
         title:"Potatoes",
         category:"Tubers",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -136,7 +136,7 @@ export const items = [
     {
         title:"Sweet Potatoes",
         category:"Tubers",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -144,7 +144,7 @@ export const items = [
     {
         title:"Yams",
         category:"Tubers",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -152,7 +152,7 @@ export const items = [
     {
         title:"Jerusalem Artichekes",
         category:"Tubers",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -162,7 +162,7 @@ export const items = [
     {
         title:"Onions",
         category:"Bulbs",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -170,7 +170,7 @@ export const items = [
     {
         title:"Garlic",
         category:"Bulbs",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -178,7 +178,7 @@ export const items = [
     {
         title:"Shallots",
         category:"Bulbs",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -186,7 +186,7 @@ export const items = [
     {
         title:"Leeks",
         category:"Bulbs",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -194,7 +194,7 @@ export const items = [
     {
         title:"Fennel",
         category:"Bulbs",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -204,7 +204,7 @@ export const items = [
     {
         title:"Asparagus",
         category:"Stem Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -212,7 +212,7 @@ export const items = [
     {
         title:"Celary",
         category:"Stem Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -220,7 +220,7 @@ export const items = [
     {
         title:"Rhubarb",
         category:"Stem Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -228,7 +228,7 @@ export const items = [
     {
         title:"Bamboo Shoots",
         category:"Stem Vegetables",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -238,7 +238,7 @@ export const items = [
     {
         title:"Tomatoes",
         category:"Culinary Fruits",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -246,7 +246,7 @@ export const items = [
     {
         title:"Cucumbers",
         category:"Culinary Fruits",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -254,7 +254,7 @@ export const items = [
     {
         title:"Eggplants",
         category:"Culinary Fruits",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -262,7 +262,7 @@ export const items = [
     {
         title:"Bell Peppers",
         category:"Culinary Fruits",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -270,7 +270,7 @@ export const items = [
     {
         title:"Zucchini",
         category:"Culinary Fruits",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -280,7 +280,7 @@ export const items = [
     {
         title:"Green Beans",
         category:"Legumes",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -288,7 +288,7 @@ export const items = [
     {
         title:"Snow peas",
         category:"Legumes",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -296,7 +296,7 @@ export const items = [
     {
         title:"Lentils",
         category:"Legumes",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -304,7 +304,7 @@ export const items = [
     {
         title:"chickpeas",
         category:"Legumes",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -314,7 +314,7 @@ export const items = [
     {
         title:"Pubmpkin",
         category:"Squashes and Gourds",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -322,7 +322,7 @@ export const items = [
     {
         title:"Butternut Squash",
         category:"Squashes and Gourds",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -330,7 +330,7 @@ export const items = [
     {
         title:"Accorn Squash",
         category:"Squashes and Gourds",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -338,7 +338,7 @@ export const items = [
     {
         title:"Bitter Melon",
         category:"Squashes and Gourds",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -348,7 +348,7 @@ export const items = [
     {
         title:"Broccoli",
         category:"Edible Flowers",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -356,7 +356,7 @@ export const items = [
     {
         title:"Cauliflower",
         category:"Edible Flowers",
-        img:"",
+        img:"./images/pageImages/itemImg1.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -364,7 +364,7 @@ export const items = [
     {
         title:"Artichokes",
         category:"Edible Flowers",
-        img:"",
+        img:"./images/pageImages/itemImg2.jpg",
         price:"",
         desc:" ",
         subDesc:" "
@@ -372,7 +372,7 @@ export const items = [
     {
         title:"Squash Blossoms",
         category:"Edible Flowers",
-        img:"",
+        img:"./images/pageImages/itemImg3.jpg",
         price:"",
         desc:" ",
         subDesc:" "
