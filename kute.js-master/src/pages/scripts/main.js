@@ -184,7 +184,7 @@ function loadEndContent() {
     endContent += `
         <div class="mx-auto px-10 ">
             <h1 class="text-6xl text-center mb-4 font-extrabold">Healthy life, Happy Perfect Life</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia autem quam fugiat dolorem ab dolor accusantium quibusdam incidunt, perspiciatis iure praesentium sequi omnis illo consectetur.</p>
+            <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia autem quam fugiat dolorem ab dolor accusantium quibusdam incidunt, perspiciatis iure praesentium sequi omnis illo consectetur.</p>
             <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400 text-lg">Explorer More..</button>
         </div>
     `;
