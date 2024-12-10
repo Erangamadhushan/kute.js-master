@@ -9,6 +9,10 @@ function loadFooterContent() {
                 <input type="submit" value="Subscribe New Later " class=" border border-green-400 text-green-400 p-2 rounded-full cursor-pointer hover:bg-green-400 hover:text-white transition-1000"/>
             </form>
         </div>
+        <div>
+        </div>
+            <h2>Grocery.com Fresh and Healthy Veggies Organic Market</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat architecto asperiores, ducimus voluptas nostrum nam debitis quaerat obcaecati ex est non eum, reiciendis natus molestias.</p>
         <div >
             <h2 class="text-white font-bold text-2xl text-center">Connect with </h2><br/>
             <div class="flex justify-center">
