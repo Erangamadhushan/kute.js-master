@@ -18,4 +18,12 @@ body {
 .loadItemCategory {
   display: flex;
   overflow-x: scroll;
+}
+
+.discountSection {
+  background-color: rgba(0, 0, 0, 0.6156862745);
+}
+
+.topDiscountSection {
+  background-color: rgba(0, 0, 0, 0.6156862745);
 }/*# sourceMappingURL=styles.css.map */

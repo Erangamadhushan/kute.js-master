@@ -15,7 +15,7 @@ function renderNavBar() {
             <a href="#" class="text-lg border-green-400 text-green-400 hover:border-b-4">Home</a>
             <a href="#" class="text-lg border-green-400 hover:text-green-400 hover:border-b-4">About Us</a>
             <a href="#" class="text-lg border-green-400 hover:text-green-400 hover:border-b-4">Services</a>
-            <a href="#" class="text-lg border-green-400 hover:text-green-400 hover:border-b-4">Categories</a>
+            <a href="./products.html" class="text-lg border-green-400 hover:text-green-400 hover:border-b-4">Categories</a>
             <a href="#" class="text-lg border-green-400 hover:text-green-400 hover:border-b-4">Contact</a>
         </div>
     `;

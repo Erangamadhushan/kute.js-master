@@ -38,6 +38,10 @@ function renderAllItems(items) {
                     <button type="button" class=" mt-5 p-2 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" >Buy Item</button>
                     <span class="ml-5 text-2xl font-bold">$${ele.price}</span>
                 </div>
+                <div class="absolute top-0 m-4 p-5 right-0 w-[150px] h-[60px] duration-1000 delay-1000 hover:h-auto overflow-hidden cursor-pointer discountSection z-10">
+                    <h1 class="text-white text-2xl">Discount</h1>
+                    <h1 class="text-white text-center text-3xl">${ele.discount} %</h1>
+                </div>
             </div>
         `;
     });

@@ -91,8 +91,8 @@ function loadOffers() {
                 </div>
             </div>
         </div>
-        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative">
-            <img src="./images/pageImages/pageImg1.jpg" alt="" class="w-full h-full object-cover group-hover:opacity-10""/>
+        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative duration-1000">
+            <img src="./images/pageImages/pageImg1.jpg" alt="" class="w-full h-full object-cover group-hover:opacity-10"/>
             <div class="hidden group-hover:block absolute top-0 left-0 w-full h-full flex justify-center items-center">
                 <div class="w-full h-full flex justify-center items-center flex-col">
                     <h1 class="text-green-400 text-center text-3xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
@@ -122,13 +122,20 @@ let topItemsContainer = document.querySelector('.topsaverProducts');
 function loadTopSellingItemContent() {
     topItemsContainer.innerHTML = " ";
     let topItemsContent = " ";
-    topItems.forEach((item) => {
+    topItems.forEach((ele) => {
         topItemsContent += `
-            <div class="w-[350px] mx-auto p-4 border border-green-400 rounded-lg" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="200" data-aos-placement="bottom-center">
-                <img src="${item.img}" class="w-full bg-cover"/>
-                <h1 class="text-3xl font-bold text-center">${item.title}</h1>
-                <h2 class="text-green-400">${item.category}</h2>
-                <p>${item.subDesc}</p>
+            <div class="w-[350px] mx-auto p-4 border border-green-400 rounded-lg group overflow-hidden relative" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="200" data-aos-placement="bottom-center ">
+                <div class="">
+                    <img src="${ele.img}" class="w-full bg-cover "/>
+                    <h1 class="text-3xl font-bold text-center">${ele.title}</h1>
+                    <h2>${ele.category}</h2>
+                    <button type="button" class=" mt-5 p-2 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" >Buy Item</button>
+                    <span class="ml-5 text-2xl font-bold">$${ele.price}</span>
+                </div>
+                <div class="absolute top-0 m-4 p-5 right-0 w-[150px] h-[60px] duration-1000 cursor-pointer delay-1000 hover:h-auto overflow-hidden topDiscountSection z-10">
+                    <h1 class="text-white text-2xl">Discount</h1>
+                    <h1 class="text-white text-center text-3xl">${ele.discount} %</h1>
+                </div>
             </div>
         `
     });

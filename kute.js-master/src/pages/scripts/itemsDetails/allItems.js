@@ -430,7 +430,7 @@ export const topItems = [
         category:"Leafy Green",
         img:"./images/pageImages/itemImg1.jpg",
         price:"24.95",
-        discount:"10",
+        discount:"15",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
         subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
     },
@@ -448,7 +448,7 @@ export const topItems = [
         category:"Root Vegetables",
         img:"./images/pageImages/itemImg2.jpg",
         price:"24.95",
-        discount:"10",
+        discount:"20",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
         subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
     },
@@ -466,7 +466,7 @@ export const topItems = [
         category:"Bulbs",
         img:"./images/pageImages/itemImg2.jpg",
         price:"24.95",
-        discount:"10",
+        discount:"5",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
         subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
     },
@@ -475,7 +475,7 @@ export const topItems = [
         category:"Stem Vegetables",
         img:"./images/pageImages/itemImg1.jpg",
         price:"24.95",
-        discount:"10",
+        discount:"15",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
         subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
     },
@@ -484,7 +484,7 @@ export const topItems = [
         category:"Culinary Fruits",
         img:"./images/pageImages/itemImg2.jpg",
         price:"24.95",
-        discount:"10",
+        discount:"20",
         desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ullam hic ad quis illo omnis perspiciatis at rerum doloribus ratione earum architecto facere ut consectetur libero asperiores quia, esse soluta maxime! Quaerat at deleniti sunt, nihil possimus incidunt libero soluta nisi, deserunt dolor culpa eligendi sed unde recusandae accusantium cum.",
         subDesc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis eveniet. Vitae error saepe quas voluptatum id minus ab nemo."
     },
