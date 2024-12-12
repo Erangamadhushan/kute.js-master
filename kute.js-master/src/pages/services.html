@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./scss/styles.css"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+            theme: {
+                extend: {
+                    screens: {
+                        custom:"900px",
+                    },
+                colors: {
+                    clifford: '#da373d',
+                }
+                }
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <!-- <div id="box" style="width:200px;height:200px;background:red;position:relative;"></div> -->
+        <div class="grid grid-cols-2 md:grid-cols-2 p-3 gap-5  lg:grid-cols-3 justify-between items-center  pageNavBar">
+            <!-- This content Loaded by scripts/main.js-->
+        </div>
+
+
+
+        <script src="../../docs/src/kute.min.js"></script>
+        <script src="scripts/executeKuteJS.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/navbar.js"></script>
+    </body>
 </html>
+<!-- End the services page here-->
