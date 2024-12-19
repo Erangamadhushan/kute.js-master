@@ -14,7 +14,7 @@ function renderLandingSectionContent(){
     let landSectionContainer = document.querySelector('.landingSection');
     landSectionContainer.innerHTML = " ";
     let landSectionContent = `
-        <div class="grid items-start p-10 gap-4">
+        <div class="grid items-start p-10 gap-4" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <h1 class="text-6xl text-white"><span class="font-bold">Fresh and Healthy Veggies</span> Organic Market </h1>
             <p class="text-xl  text-white hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe repudiandae totam molestiae est, praesentium eveniet sequi quasi esse eum repellendus nisi quis ipsam cupiditate neque consectetur beatae qui non perspiciatis eos, voluptates quibusdam voluptatibus. Veniam tenetur facilis quos nulla</p>
             <a href="./products.html" class="p-3 px-5 bg-transparent border w-[300px] border-white text-white rounded-full hover:bg-white hover:text-black transition-1000 corsor-pointer">Explorer More..</a>
@@ -39,7 +39,7 @@ function loadItemCategory() {
     let itemCategoryListContent = " ";
     itemCategoryList.forEach((ele) => {
         itemCategoryListContent += `
-            <button type="button" class="p-5 px-10 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" data-type="${ele}">${ele}</button>
+            <button type="button" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center" class="p-5 px-10 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" data-type="${ele}">${ele}</button>
         `
     });
     itemCategoryListContainer.innerHTML = itemCategoryListContent;
@@ -82,7 +82,7 @@ function loadOffers() {
     offerContainer.innerHTML = " ";
     let offerContent = " ";
     offerContent += `
-        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative">
+        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <img src="./images/pageImages/itemImg1.jpg" alt="" class="w-full h-full object-cover group-hover:opacity-10"/>
             <div class="hidden group-hover:block absolute top-0 left-0 w-full h-full flex justify-center items-center">
                 <div class="w-full h-full flex justify-center items-center flex-col duration-1000">
@@ -91,7 +91,7 @@ function loadOffers() {
                 </div>
             </div>
         </div>
-        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative duration-1000">
+        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative duration-1000" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <img src="./images/pageImages/pageImg1.jpg" alt="" class="w-full h-full object-cover group-hover:opacity-10"/>
             <div class="hidden group-hover:block absolute top-0 left-0 w-full h-full flex justify-center items-center">
                 <div class="w-full h-full flex justify-center items-center flex-col">
@@ -100,7 +100,7 @@ function loadOffers() {
                 </div>
             </div>
         </div>
-        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative">
+        <div class="w-[350px] h-[70vh] group border border-green-400 p-1 rounded-lg overflow-hidden relative" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <img src="./images/pageImages/itemImg3.jpg" alt="" class="w-full h-full object-cover group-hover:opacity-10""/>
             <div class="hidden group-hover:block absolute top-0 left-0 w-full h-full flex justify-center items-center">
                 <div class="w-full h-full flex justify-center items-center flex-col">
@@ -147,10 +147,10 @@ let subDetails1Container = document.querySelector('.subDetails1');
 function loadSubDetails1Content() {
     subDetails1Container.innerHTML = " ";
     let subDetails1Content = `
-        <div class="mx-auto">
+        <div class="mx-auto" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <img src="./images/pageImages/subImg1.jpg" alt="subContent 1 Image here"  class=""/>
         </div>
-        <div class="p-5">
+        <div class="p-5" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <h1 class="text-3xl font-bold">A Shop for good people by good people</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis amet suscipit architecto cumque dignissimos. Quasi provident, officia aspernatur eaque eveniet a quaerat itaque illo odio, hic voluptatem earum saepe, est ipsa accusamus? Iste exercitationem animi aperiam assumenda nulla pariatur nam, expedita vel vero ex commodi dignissimos iure earum dolor. Aut reprehenderit soluta sequi illum aliquam fugiat voluptatum eveniet ipsam officia.</p>
             <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400">Explorer More..</button>
@@ -166,12 +166,12 @@ let subDetails2Container = document.querySelector('.subDetails2');
 function loadSubDetails2Content() {
     subDetails2Container.innerHTML = " ";
     let subDetails2Content = `
-        <div class="p-5">
+        <div class="p-5" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <h1 class="text-3xl font-bold">A Shop for good people by good people</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis amet suscipit architecto cumque dignissimos. Quasi provident, officia aspernatur eaque eveniet a quaerat itaque illo odio, hic voluptatem earum saepe, est ipsa accusamus? Iste exercitationem animi aperiam assumenda nulla pariatur nam, expedita vel vero ex commodi dignissimos iure earum dolor. Aut reprehenderit soluta sequi illum aliquam fugiat voluptatum eveniet ipsam officia.</p>
             <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400">Explorer More..</button>
         </div>
-        <div class="mx-auto">
+        <div class="mx-auto" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <img src="./images/pageImages/subImg2.jpg" alt="subContent 1 Image here"  class=""/>
         </div>
     `;
@@ -184,12 +184,12 @@ let endContentContainer = document.querySelector('.endContent');
 function loadEndContent() {
     endContentContainer.innerHTML = " ";
     let endContent = `
-        <div class="mx-auto">
+        <div class="mx-auto" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <img src="./images/pageImages/vegetables.jpg" alt="subContent 1 Image here"  class=""/>
         </div>
     `;
     endContent += `
-        <div class="mx-auto px-10 ">
+        <div class="mx-auto px-10 " data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <h1 class="text-6xl text-center mb-4 font-extrabold">Healthy life, Happy Perfect Life</h1>
             <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia autem quam fugiat dolorem ab dolor accusantium quibusdam incidunt, perspiciatis iure praesentium sequi omnis illo consectetur.</p>
             <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400 text-lg">Explorer More..</button>
