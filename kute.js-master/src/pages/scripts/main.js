@@ -153,7 +153,7 @@ function loadSubDetails1Content() {
         <div class="p-5" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <h1 class="text-3xl font-bold">A Shop for good people by good people</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis amet suscipit architecto cumque dignissimos. Quasi provident, officia aspernatur eaque eveniet a quaerat itaque illo odio, hic voluptatem earum saepe, est ipsa accusamus? Iste exercitationem animi aperiam assumenda nulla pariatur nam, expedita vel vero ex commodi dignissimos iure earum dolor. Aut reprehenderit soluta sequi illum aliquam fugiat voluptatum eveniet ipsam officia.</p>
-            <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400">Explorer More..</button>
+            <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400" onclick="directServicePage()">Explorer More..</button>
         </div>
     `;
 
@@ -169,7 +169,7 @@ function loadSubDetails2Content() {
         <div class="p-5" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <h1 class="text-3xl font-bold">A Shop for good people by good people</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis amet suscipit architecto cumque dignissimos. Quasi provident, officia aspernatur eaque eveniet a quaerat itaque illo odio, hic voluptatem earum saepe, est ipsa accusamus? Iste exercitationem animi aperiam assumenda nulla pariatur nam, expedita vel vero ex commodi dignissimos iure earum dolor. Aut reprehenderit soluta sequi illum aliquam fugiat voluptatum eveniet ipsam officia.</p>
-            <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400">Explorer More..</button>
+            <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400" onclick="directServicePage()">Explorer More..</button>
         </div>
         <div class="mx-auto" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <img src="./images/pageImages/subImg2.jpg" alt="subContent 1 Image here"  class=""/>
@@ -192,10 +192,11 @@ function loadEndContent() {
         <div class="mx-auto px-10 " data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear" data-aos-placement="bottom-center">
             <h1 class="text-6xl text-center mb-4 font-extrabold">Healthy life, Happy Perfect Life</h1>
             <p class="mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia autem quam fugiat dolorem ab dolor accusantium quibusdam incidunt, perspiciatis iure praesentium sequi omnis illo consectetur.</p>
-            <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400 text-lg">Explorer More..</button>
+            <button type="button" class="my-10 bg-green-400 rounded-full border text-white p-5 hover:outline-none hover:bg-transparent hover:text-green-400 hover:border-green-400 text-lg" onclick="directServicePage()">Explorer More..</button>
         </div>
     `;
 
     endContentContainer.innerHTML = endContent;
 }
 loadEndContent();
+

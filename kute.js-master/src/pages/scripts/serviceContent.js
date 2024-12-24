@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", () => {
 let serviceContainer = document.querySelector('.serviceContainer');
 function renderServiceContent() {
     serviceContainer.innerHTML = `
-        <div class="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-4 mx-auto place-items-center">
+        <div class="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-4 px-5 mx-auto place-items-center">
 
             <div class="shadow-md p-10 my-5 rounded-md bg-white hover:bg-green-100">
                 <h2 class="text-green-400 text-2xl py-3 font-semibold">Premium Vegetable Selection</h2>
