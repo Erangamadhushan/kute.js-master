@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Services Grocery.com </title>
+        <title>Sign Up</title>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./scss/styles.css"/>
         <script src="https://cdn.tailwindcss.com"></script>
@@ -27,26 +27,24 @@
         <div class="grid grid-cols-2 md:grid-cols-2 p-3 gap-5  lg:grid-cols-3 justify-between items-center  pageNavBar">
             <!-- This content Loaded by scripts/main.js-->
         </div>
-        <div>
-            <h2 class=" text-center text-4xl font-extrabold text-green-400 ">Our Services</h2>
-            <h3 class="text-center text-lg font-bold text-green-400">Fresh Harvest Market Services</h3>
-        </div>
 
-        <div class="grid grid-cols-1 justify-center items-center serviceContainer"></div>
+        <div class="grid grid-cols-1 p-5 gap-5 justify-center items-center signinContainer"></div>
 
         <!--Load footer content-->
         <div class="text-center mt-10 bg-green-600"><h1 class="text-4xl pt-5"><span class="text-white">Grocery</span>.com</h1></div>
         <div class="w-full py-10 px-10 bg-green-600 grid grid-cols-1 md:grid-cols-3  footerContainer"></div>
 
-
-
+        <!-- Your custom scripts -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <script src="../../docs/src/kute.min.js"></script>
         <script src="scripts/executeKuteJS.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="scripts/jquery.js"></script>
         <script src="scripts/navbar.js"></script>
         <script type="text/javascript" src="scripts/footer.js"></script>
-        <script type="text/javascript" src="scripts/serviceContent.js"></script>
+        <script type="text/javascript" src="scripts/signinForm.js"></script>
     </body>
 </html>
-<!-- End the services page here-->
