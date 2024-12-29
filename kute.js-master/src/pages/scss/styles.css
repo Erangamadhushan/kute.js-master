@@ -26,4 +26,13 @@ body {
 
 .topDiscountSection {
   background-color: rgba(0, 0, 0, 0.6156862745);
+}
+
+.userSigninPage {
+  background-image: url("../images/pageImages/pageImg4.jpg");
+  background-size: cover;
+  mix-blend-mode: multiply;
+  background-position: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }/*# sourceMappingURL=styles.css.map */

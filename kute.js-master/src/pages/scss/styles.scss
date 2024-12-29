@@ -16,3 +16,11 @@
 .topDiscountSection {
     background-color:#0000009d;
 }
+.userSigninPage {
+    background-image:url('../images/pageImages/pageImg4.jpg');
+    background-size:cover;
+    mix-blend-mode: multiply;
+    background-position:center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
