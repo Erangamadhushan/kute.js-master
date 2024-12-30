@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#navbar-icon").click(() => {
+    $("navbar-icon").click(() => {
         $("#panel").slideToggle();
     })
 })
