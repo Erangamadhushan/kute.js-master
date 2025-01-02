@@ -15,7 +15,7 @@ function purchaseItem(img, title, desc, price, discount, subDesc) {
     else {
         cart = JSON.parse(cart);
     }
-    cart.push(item);
+    
     currentItem.push(item);
     localStorage.setItem('cart', JSON.stringify(cart));
     sessionStorage.setItem('currentItem', JSON.stringify(currentItem));

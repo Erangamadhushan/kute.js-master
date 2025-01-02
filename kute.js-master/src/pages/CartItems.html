@@ -35,11 +35,11 @@
         <div class="grid" id="panel"></div>
 
         <table class="table-auto w-[70vw] mx-auto mt-5 border">
-            <thead>
-                <th>Title</th>
-                <th>Price</th>
-                <th>Description</th>
-                <th>Status</th>
+            <thead class="bg-green-300 ">
+                <th class="py-2">Title</th>
+                <th class="py-2">Price</th>
+                <th class="py-2">Description</th>
+                <th class="py-2">Status</th>
             </thead>
             <tbody class="cartItemsContent">
             </tbody>
@@ -50,6 +50,10 @@
                 <td class="itemTitle"></td>
                 <td class="itemPrice"></td>
                 <td class="itemDescription"></td>
+                <td class="itemStatus">
+                    <button class="bg-green-400 text-white p-2 rounded-full" class="buyItemNow">Buy</button>
+                    <button class="bg-red-400 text-white p-2 rounded-full" class="removeItemFormCart">Remove</button>
+                </td>
             </tr>
         </template>
         <!--Load footer content-->
