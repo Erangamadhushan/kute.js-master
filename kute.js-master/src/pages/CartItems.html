@@ -36,8 +36,8 @@
 
         <table class="table-auto w-[70vw] mx-auto mt-5 border">
             <thead class="bg-green-300 ">
-                <th class="py-2">Title</th>
-                <th class="py-2">Price</th>
+                <th class="py-2 p-2">Title</th>
+                <th class="py-2">Price ($)</th>
                 <th class="py-2">Description</th>
                 <th class="py-2">Status</th>
             </thead>
@@ -47,12 +47,12 @@
 
         <template>
             <tr>
-                <td class="itemTitle"></td>
-                <td class="itemPrice"></td>
-                <td class="itemDescription"></td>
-                <td class="itemStatus">
-                    <button class="bg-green-400 text-white p-2 rounded-full" class="buyItemNow">Buy</button>
-                    <button class="bg-red-400 text-white p-2 rounded-full" class="removeItemFormCart">Remove</button>
+                <td class="itemTitle p-2 border"></td>
+                <td class="itemPrice p-2 border"></td>
+                <td class="itemDescription p-2 border"></td>
+                <td class="grid gap-1 p-2 border">
+                    <button class="buyItemNow bg-green-400 p-2 text-white">Buy Now</button>
+                    <button class="removeItemNow bg-red-600 p-2 text-white">Remove Item</button>
                 </td>
             </tr>
         </template>

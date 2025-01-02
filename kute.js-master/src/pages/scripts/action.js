@@ -17,6 +17,7 @@ function purchaseItem(img, title, desc, price, discount, subDesc) {
     }
     
     currentItem.push(item);
+    cart.push(item);
     localStorage.setItem('cart', JSON.stringify(cart));
     sessionStorage.setItem('currentItem', JSON.stringify(currentItem));
     alert("Item added to cart");
