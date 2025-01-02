@@ -16,11 +16,10 @@ function purchaseItem(img, title, desc, price, discount, subDesc) {
         cart = JSON.parse(cart);
     }
     
+    cart.unshift(item);
     currentItem.push(item);
-    cart.push(item);
     localStorage.setItem('cart', JSON.stringify(cart));
     sessionStorage.setItem('currentItem', JSON.stringify(currentItem));
-    alert("Item added to cart");
 
     window.location.replace("buyItem.html");
 }
