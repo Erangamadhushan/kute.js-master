@@ -1,11 +1,12 @@
-function purchaseItem(img, title, desc, price, discount) {
+function purchaseItem(img, title, desc, price, discount, subDesc) {
     const currentItem = [];
     let item = {
         img,
         title,
         desc,
         price,
-        discount
+        discount,
+        subDesc
     }
     let cart = localStorage.getItem('cart');
     if(cart == null) {

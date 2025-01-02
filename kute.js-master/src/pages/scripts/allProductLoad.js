@@ -35,7 +35,7 @@ function renderAllItems(items) {
                     <img src="${ele.img}" class="w-full bg-cover "/>
                     <h1 class="text-3xl font-bold text-center">${ele.title}</h1>
                     <h2>${ele.category}</h2>
-                    <button type="button" class=" mt-5 p-2 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" onclick="purchaseItem('${ele.img}','${ele.title}','${ele.desc}','${ele.price}','${ele.discount}')">Purchase Item</button>
+                    <button type="button" class=" mt-5 p-2 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" onclick="purchaseItem('${ele.img}','${ele.title}','${ele.desc}','${ele.price}','${ele.discount}','${ele.subDesc}')">Purchase Item</button>
                     <span class="ml-5 text-2xl font-bold">$${ele.price}</span>
                 </div>
                 <div class="absolute top-0 m-4 p-5 right-0 w-[150px] h-[60px]  hover:h-auto overflow-hidden cursor-pointer discountSection z-10">
@@ -67,7 +67,7 @@ function renderitems(data) {
                     <img src="${ele.img}" class="w-full bg-cover"/>
                     <h1 class="text-3xl font-bold text-center">${ele.title}</h1>
                     <h2>${ele.category}</h2>
-                    <button type="button" class=" mt-5 p-2 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" onclick="purchaseItem('${ele.img}','${ele.title}','${ele.desc}','${ele.price}','${ele.discount}')">Purchase Item</button>
+                    <button type="button" class=" mt-5 p-2 bg-transparent rounded-full border border-green-400 text-green-400 hover:bg-green-400 hover:text-white categoryBtn" onclick="purchaseItem('${ele.img}','${ele.title}','${ele.desc}','${ele.price}','${ele.discount}','${ele.subDesc}')">Purchase Item</button>
                     <span class="ml-5 text-2xl font-bold">$${ele.price}</span>
                 </div>
             `;

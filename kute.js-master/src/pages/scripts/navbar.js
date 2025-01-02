@@ -21,7 +21,7 @@ function renderNavBar() {
     `;
     navBarContent += `
         <div class="flex flex-row space-x-5 px-5">
-            <a href="#" class="hidden sm:block"><img src="./icons/navbar/add-to-cart.png" alt="add to card images"/></a>
+            <a href="./CartItems.html" class="hidden sm:block"><img src="./icons/navbar/add-to-cart.png" alt="add to card images"/></a>
             <button type="button" onclick="signin()" class="p-2 px-4 border rounded-full text-green-400 border-green-400 hover:bg-green-400 hover:text-white hidden md:block">Sign In</button>
             <button type="button" class="p-2 px-4 border rounded-full text-green-400 border-green-400 hover:bg-green-400 hover:text-white block custom:hidden" id="navbar-icon">&#9776;</button>
         </div>

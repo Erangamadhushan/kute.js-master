@@ -28,8 +28,33 @@
         </script>
     </head>
     <body>
-        
+        <!-- <div id="box" style="width:200px;height:200px;background:red;position:relative;"></div> -->
+        <div class="grid grid-cols-2 md:grid-cols-2 p-3 gap-5  lg:grid-cols-3 justify-between items-center  pageNavBar">
+            <!-- This content Loaded by scripts/main.js-->
+        </div>
+        <div class="grid" id="panel"></div>
 
+        <table class="table-auto w-[70vw] mx-auto mt-5 border">
+            <thead>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Status</th>
+            </thead>
+            <tbody class="cartItemsContent">
+            </tbody>
+        </table>
+
+        <template>
+            <tr>
+                <td class="itemTitle"></td>
+                <td class="itemPrice"></td>
+                <td class="itemDescription"></td>
+            </tr>
+        </template>
+        <!--Load footer content-->
+        <div class="text-center mt-10 bg-green-600"><h1 class="text-[3em] pt-5"><span class="text-white">Grocery</span>.com</h1></div>
+        <div class="w-full py-10 px-10 bg-green-600 grid grid-cols-1 md:grid-cols-3  footerContainer"></div>
 
         <!-- Your custom scripts -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -41,6 +66,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="scripts/jquery.js"></script>
         <script src="scripts/navbar.js"></script>
+        <script src="scripts/cartItemsContent.js"></script>
         <script type="text/javascript" src="scripts/footer.js"></script>
     </body>
 </html>
