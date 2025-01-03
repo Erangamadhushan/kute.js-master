@@ -25,6 +25,9 @@
             function directServicePage() {
                 window.location.replace("./services.html");
             }
+            window.addEventListener("scroll", function() {
+                document.querySelector('.pageNavBar').classList.toggle("sticky", window.scrollY > 0)
+            });
         </script>
     </head>
     <body>
@@ -48,9 +51,11 @@
         <script src="../../docs/src/kute.min.js"></script>
         <script src="scripts/executeKuteJS.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="scripts/jquery.js"></script>
         <script src="scripts/navbar.js"></script>
         <script src="scripts/buyItemContent.js"></script>
+        <script src="scripts/action.js"></script>
         <script type="text/javascript" src="scripts/footer.js"></script>
     </body>
 </html>

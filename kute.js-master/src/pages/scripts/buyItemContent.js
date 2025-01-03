@@ -40,7 +40,7 @@ function renderBuyItemContent() {
                         
                     </div>
                     <div class="w-[200px] mx-auto grid gap-4 mt-5">
-                        <button type="submit" class="p-2 bg-green-400 text-white rounded-lg w-full">Buy Now</button>
+                        <button type="submit" class="p-2 bg-green-400 text-white rounded-lg w-full" onclick="executePaymentGateWay()">Buy Now</button>
                     </div>
                 </form>
                 

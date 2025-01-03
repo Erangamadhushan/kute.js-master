@@ -1,5 +1,7 @@
 @import './base';
 
+body {
+}
 .landingSection {
     width:100%;
     background-image:url('../images/pageImages/pageImg4.jpg');
@@ -23,6 +25,22 @@
     background-position:center;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+}
+
+.pageNavBar {
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:999;
+    -webkit-backdrop-filter:blur(5px);
+    backdrop-filter:blur(5px);
+    &.sticky {
+        font-weight:550;
+        background-color:#22222237;
+        &button {
+            background-color:#fff;
+        }
+    }
 }
 
 #panel {

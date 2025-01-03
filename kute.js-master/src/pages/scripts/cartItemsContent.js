@@ -1,5 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
     renderCartItemsContent();
+    cartBehaviour();
 });
 
 
@@ -37,4 +38,14 @@ function renderCartItemsContent() {
         }
         cartItemContainer.appendChild(tr);
 })
+}
+
+
+function cartBehaviour() {
+    const cartBehaviourContainer = document.querySelector('.cartBehaviour');
+    cartBehaviourContainer.innerHTML = `
+        <button class="clearCart bg-red-600 text-white p-5 rounded-lg hover:bg-red-400" onclick="clearCartItems();">Clear Cart</button>
+        
+    `;
+    
 }
